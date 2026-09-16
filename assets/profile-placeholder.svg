@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#eef3f6"/>
+  <circle cx="400" cy="355" r="155" fill="#c7d4dd"/>
+  <path d="M145 920c22-230 126-350 255-350s233 120 255 350" fill="#c7d4dd"/>
+  <text x="400" y="950" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#70808b">Professional headshot</text>
+</svg>
