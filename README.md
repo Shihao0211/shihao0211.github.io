@@ -33,3 +33,10 @@ rename/create the repository exactly:
 This version uses neutral affiliation icons rather than recreated official Johns Hopkins logos.
 Johns Hopkins brand guidelines state that official marks should not be redrawn or altered.
 If you download approved JHU / School of Medicine logo assets, they can be inserted unchanged.
+
+
+## v3 visitor counter
+A small public visitor badge is displayed in the footer.
+It records page loads/page views, not rigorously deduplicated unique human visitors.
+
+Static assets use `?v=3` cache-busting parameters so browser updates should appear more reliably after each deployment.
