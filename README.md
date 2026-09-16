@@ -1,55 +1,35 @@
-# Shihao He — Academic Website
+# Shihao He Academic Website — v2
 
-A lightweight academic website designed for GitHub Pages.
+This version includes:
+- Smaller typography and a more compact academic layout
+- Uploaded professional headshot
+- Google Scholar, ORCID, PubMed, and LinkedIn links
+- Direct publication list (selected 1–10 + expandable 11–52)
+- Research funding
+- Editorial appointments
+- Honors and awards
+- Contact email and office address
+- No CV download link
 
-## 1. What is included
-- `index.html` — main website
-- `styles.css` — visual design
-- `script.js` — mobile navigation + automatic copyright year
-- `assets/profile-placeholder.svg` — replace with your professional headshot
-- `assets/favicon.svg` — browser icon
+## Upload to GitHub
+Replace the existing files in your GitHub repository with:
+- index.html
+- styles.css
+- script.js
+- assets/
 
-## 2. Before publishing
-Search `index.html` for the word `Replace` and update:
-- Google Scholar URL
-- ORCID URL
-- PubMed URL
-- LinkedIn URL
-- email address
-- selected publications
-- awards/funding
-- editorial-board roles
+Keep `assets/shihao-he-headshot.jpg` in the assets folder.
 
-Replace:
-- `assets/profile-placeholder.svg` with your photo (for example `assets/shihao-he.jpg`)
-- then update the `<img src=...>` path in `index.html`
-- add your CV as `assets/Shihao_He_CV.pdf`
+## Important GitHub Pages URL note
+Your current site URL contains `/shihaohe.github.io/` because your repository is a project site.
 
-## 3. Publish free with GitHub Pages
-1. Create a GitHub account if you do not already have one.
-2. Create a PUBLIC repository named exactly:
-   `YOUR-GITHUB-USERNAME.github.io`
-3. Upload all files in this folder.
-4. Open repository Settings → Pages.
-5. Select the main branch as the publishing source if needed.
-6. Your site will appear at:
-   `https://YOUR-GITHUB-USERNAME.github.io`
+If your GitHub username is `shihao0211` and you want the cleaner URL:
+`https://shihao0211.github.io/`
 
-GitHub Pages is available for public repositories on GitHub Free.
+rename/create the repository exactly:
+`shihao0211.github.io`
 
-## 4. Optional custom domain
-You may later purchase a domain such as:
-- `shihaohe.com`
-- `shihaohe.org`
-- `shihaohemd.com`
-
-GitHub Pages supports custom domains. The hosting can remain on GitHub Pages; you only pay the domain registrar for the domain itself.
-
-## 5. Design principle
-The site intentionally uses:
-- restrained academic typography
-- Johns Hopkins-adjacent navy/blue palette without copying institutional branding
-- high readability
-- no dependency on frameworks
-- responsive mobile layout
-- fast static hosting
+## Johns Hopkins branding note
+This version uses neutral affiliation icons rather than recreated official Johns Hopkins logos.
+Johns Hopkins brand guidelines state that official marks should not be redrawn or altered.
+If you download approved JHU / School of Medicine logo assets, they can be inserted unchanged.
